@@ -1,35 +1,52 @@
+from __future__ import annotations
+
 import numpy as np
 from matplotlib import pyplot
 import six
 from bokeh.io import export_png, export_svgs
-from bokeh.models import ColumnDataSource, DataTable, TableColumn
+from bokeh.models import ColumnDataSource, DataTable, TableColumn, Scatter
+
+from pandas import DataFrame
 
 
-def table(data, col_width = 3.0, row_height = 0.625, font_size = 14,
-          header_color = '#40466e', row_colors = ['#f1f1f2', 'w'], edge_color = 'w',
-          bbox = [0, 0, 1, 1], header_columns = 0,
-          ax = None, **kwargs):
+def table(
+    data: DataFrame,
+    colwidth: int | float = 3.0,
+    rowheight: int | float = 0.625,
+    fontsize: int | float = 14,
+    headercolor: str = '#40466e',
+    rowcolors: list[str] = None,
+    edgecolor: str = 'w',
+    bbox: list[int] = None,
+    headercolumns: int = 0,
+    ax = None,
+    **kwargs
+):
+    if bbox is None:
+        bbox = [0, 0, 1, 1]
+    if rowcolors is None:
+        rowcolors = ['#f1f1f2', 'w']
     if ax is None:
-        size = (np.array(data.shape[::-1]) + np.array([0, 1])) * np.array([col_width, row_height])
+        size = (np.array(data.shape[::-1]) + np.array([0, 1])) * np.array([colwidth, rowheight])
         fig, ax = pyplot.subplots(figsize = size)
         ax.axis('off')
 
-    mpl_table = ax.table(cellText = data.values, bbox = bbox, colLabels = data.columns, **kwargs)
+    mtable = ax.table(cellText = data.values, bbox = bbox, colLabels = data.columns, **kwargs)
 
-    mpl_table.auto_set_font_size(False)
-    mpl_table.set_fontsize(font_size)
+    mtable.auto_set_font_size(False)
+    mtable.set_fontsize(fontsize)
 
-    for k, cell in six.iteritems(mpl_table._cells):
-        cell.set_edgecolor(edge_color)
-        if k[0] == 0 or k[1] < header_columns:
+    for k, cell in six.iteritems(mtable.get_celld()):
+        cell.set_edgecolor(edgecolor)
+        if k[0] == 0 or k[1] < headercolumns:
             cell.set_text_props(weight = 'bold', color = 'w')
-            cell.set_facecolor(header_color)
+            cell.set_facecolor(headercolor)
         else:
-            cell.set_facecolor(row_colors[k[0] % len(row_colors)])
+            cell.set_facecolor(rowcolors[k[0] % len(rowcolors)])
     return ax
 
 
-def saveimage(df, path):
+def saveimage(df: DataFrame, path):
     src = ColumnDataSource(df)
     df_columns = [df.index.name]
     df_columns.extend(df.columns.values)
