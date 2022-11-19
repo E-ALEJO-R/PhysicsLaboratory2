@@ -7,9 +7,9 @@
    id="svg8"
    inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
    sodipodi:docname="values.svg"
-   inkscape:export-filename="values.png"
-   inkscape:export-xdpi="1000"
-   inkscape:export-ydpi="1000"
+   inkscape:export-filename="../../../../../../Android/values.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -339,25 +339,25 @@
       <text
          xml:space="preserve"
          id="text959"
-         style="font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect961)"
+         style="font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect961);display:inline"
          transform="translate(-12.993696,1.1988347)"><tspan
            x="202.42773"
            y="24.987544"
-           id="tspan468"><tspan
+           id="tspan635"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan466">ángulo = 0.4[°]
+             id="tspan633">ángulo = 0.4[°]
 </tspan></tspan><tspan
            x="202.42773"
            y="31.161157"
-           id="tspan472"><tspan
+           id="tspan639"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan470">intesidad = 0.17[A]
+             id="tspan637">intesidad = 0.17[A]
 </tspan></tspan><tspan
            x="202.42773"
            y="37.33477"
-           id="tspan476"><tspan
+           id="tspan643"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan474">voltaje = 15[V]</tspan></tspan></text>
+             id="tspan641">voltaje = 15[V]</tspan></tspan></text>
     </g>
     <g
        id="g999"
@@ -382,25 +382,25 @@
       <text
          xml:space="preserve"
          id="text967"
-         style="font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect969)"
+         style="font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect969);display:inline"
          transform="translate(-174.91922,1.1988347)"><tspan
            x="202.42773"
            y="24.987544"
-           id="tspan480"><tspan
+           id="tspan647"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan478">ángulo = 0.65[°]
+             id="tspan645">ángulo = 0.65[°]
 </tspan></tspan><tspan
            x="202.42773"
            y="31.161157"
-           id="tspan484"><tspan
+           id="tspan651"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan482">intesidad = 0.19[A]
+             id="tspan649">intesidad = 0.19[A]
 </tspan></tspan><tspan
            x="202.42773"
            y="37.33477"
-           id="tspan488"><tspan
+           id="tspan655"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan486">voltaje = 18[V]</tspan></tspan></text>
+             id="tspan653">voltaje = 18[V]</tspan></tspan></text>
     </g>
     <g
        id="g1005"
@@ -425,25 +425,25 @@
       <text
          xml:space="preserve"
          id="text973"
-         style="font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect975)"
+         style="font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect975);display:inline"
          transform="translate(-335.25773,1.1988347)"><tspan
            x="202.42773"
            y="24.987544"
-           id="tspan492"><tspan
+           id="tspan659"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan490">ángulo = 0.7[°]
+             id="tspan657">ángulo = 0.7[°]
 </tspan></tspan><tspan
            x="202.42773"
            y="31.161157"
-           id="tspan496"><tspan
+           id="tspan663"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan494">intesidad = 0.22[A]
+             id="tspan661">intesidad = 0.22[A]
 </tspan></tspan><tspan
            x="202.42773"
            y="37.33477"
-           id="tspan500"><tspan
+           id="tspan667"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan498">voltaje = 21[V]</tspan></tspan></text>
+             id="tspan665">voltaje = 21[V]</tspan></tspan></text>
     </g>
     <g
        id="g1011"
@@ -468,25 +468,25 @@
       <text
          xml:space="preserve"
          id="text979"
-         style="font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect981)"
+         style="font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect981);display:inline"
          transform="translate(-497.18375,1.1988347)"><tspan
            x="202.42773"
            y="24.987544"
-           id="tspan504"><tspan
+           id="tspan671"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan502">ángulo = 0.75[°]
+             id="tspan669">ángulo = 0.75[°]
 </tspan></tspan><tspan
            x="202.42773"
            y="31.161157"
-           id="tspan508"><tspan
+           id="tspan675"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan506">intesidad = 0.23[A]
+             id="tspan673">intesidad = 0.23[A]
 </tspan></tspan><tspan
            x="202.42773"
            y="37.33477"
-           id="tspan512"><tspan
+           id="tspan679"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan510">voltaje = 24[V]</tspan></tspan></text>
+             id="tspan677">voltaje = 24[V]</tspan></tspan></text>
     </g>
     <g
        id="g1017"
@@ -511,25 +511,25 @@
       <text
          xml:space="preserve"
          id="text985"
-         style="font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect987)"
+         style="font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect987);display:inline"
          transform="translate(-658.05143,1.1988347)"><tspan
            x="202.42773"
            y="24.987544"
-           id="tspan516"><tspan
+           id="tspan683"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan514">ángulo = 0.8[°]
+             id="tspan681">ángulo = 0.8[°]
 </tspan></tspan><tspan
            x="202.42773"
            y="31.161157"
-           id="tspan520"><tspan
+           id="tspan687"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan518">intesidad = 0.21[A]
+             id="tspan685">intesidad = 0.21[A]
 </tspan></tspan><tspan
            x="202.42773"
            y="37.33477"
-           id="tspan524"><tspan
+           id="tspan691"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan522">voltaje = 27[V]</tspan></tspan></text>
+             id="tspan689">voltaje = 27[V]</tspan></tspan></text>
     </g>
   </g>
 </svg>
