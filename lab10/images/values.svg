@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="983.56458mm"
-   height="431.71271mm"
-   viewBox="0 0 983.56458 431.71271"
+   width="590.13898mm"
+   height="860.64386mm"
+   viewBox="0 0 590.13898 860.64386"
    version="1.1"
    id="svg8"
    inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
@@ -213,9 +213,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.14944032"
-     inkscape:cx="2047.6402"
-     inkscape:cy="1184.4193"
+     inkscape:zoom="0.10907549"
+     inkscape:cx="1416.4502"
+     inkscape:cy="1485.21"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -236,8 +236,8 @@
        type="xygrid"
        id="grid833"
        dotted="false"
-       originx="806.33814"
-       originy="94.213765" />
+       originx="942.68769"
+       originy="126.29195" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -247,7 +247,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -255,7 +254,7 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(596.33812,94.213763)">
+     transform="translate(732.68767,126.29195)">
     <image
        width="317.5"
        height="423.33334"
@@ -265,7 +264,7 @@
        x="-452.85571"
        y="-174.37808"
        clip-path="url(#clipPath911)"
-       transform="matrix(0.99728265,0,0,0.99637581,-182.9341,22.757756)"
+       transform="matrix(0.99728265,0,0,0.99637581,-319.28339,-9.3204269)"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"
        inkscape:export-filename="../../../../../../Android/image841.png" />
@@ -278,7 +277,7 @@
        x="817.14429"
        y="-174.37808"
        clip-path="url(#clipPath927)"
-       transform="matrix(0.99258644,0,0,1.0201179,-1279.6992,29.877044)"
+       transform="matrix(0.99258644,0,0,1.0201179,-1416.0484,-2.201137)"
        inkscape:export-xdpi="1000"
        inkscape:export-ydpi="1000" />
     <image
@@ -290,7 +289,7 @@
        x="499.64429"
        y="-174.37808"
        clip-path="url(#clipPath923)"
-       transform="matrix(0.99061027,0,0,1.0487971,-756.87772,37.694205)"
+       transform="matrix(0.99061027,0,0,1.0487971,-893.22688,5.6160274)"
        inkscape:export-xdpi="1000"
        inkscape:export-ydpi="1000" />
     <image
@@ -302,7 +301,7 @@
        x="182.14429"
        y="-174.37808"
        clip-path="url(#clipPath919)"
-       transform="matrix(1.0570474,0,0,1.0911581,-286.51119,24.610284)"
+       transform="matrix(1.0570474,0,0,1.0911581,-1012.9993,421.46324)"
        inkscape:export-xdpi="1000"
        inkscape:export-ydpi="1000" />
     <image
@@ -314,12 +313,12 @@
        x="-135.35571"
        y="-174.37808"
        clip-path="url(#clipPath915)"
-       transform="matrix(1.0215905,0,0,0.99670351,265.72954,-2.823491)"
+       transform="matrix(1.0215905,0,0,0.99670351,-460.75859,394.02947)"
        inkscape:export-xdpi="1000"
        inkscape:export-ydpi="1000" />
     <g
        id="g993"
-       transform="matrix(1.221818,0,0,1.221818,-683.79371,116.29191)"
+       transform="matrix(1.221818,0,0,1.221818,-819.28668,84.691796)"
        inkscape:export-xdpi="1000"
        inkscape:export-ydpi="1000">
       <image
@@ -344,25 +343,25 @@
          transform="translate(-12.993696,1.1988347)"><tspan
            x="202.42773"
            y="24.987544"
-           id="tspan459"><tspan
+           id="tspan468"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan457">ángulo = 0.4[°]
+             id="tspan466">ángulo = 0.4[°]
 </tspan></tspan><tspan
            x="202.42773"
            y="31.161157"
-           id="tspan463"><tspan
+           id="tspan472"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan461">intesidad = 0.17[A]
+             id="tspan470">intesidad = 0.17[A]
 </tspan></tspan><tspan
            x="202.42773"
            y="37.33477"
-           id="tspan467"><tspan
+           id="tspan476"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan465">voltaje = 15[V]</tspan></tspan></text>
+             id="tspan474">voltaje = 15[V]</tspan></tspan></text>
     </g>
     <g
        id="g999"
-       transform="matrix(1.221818,0,0,1.221818,-290.36835,116.29191)"
+       transform="matrix(1.221818,0,0,1.221818,-426.71745,84.213724)"
        inkscape:export-xdpi="1000"
        inkscape:export-ydpi="1000">
       <image
@@ -387,25 +386,25 @@
          transform="translate(-174.91922,1.1988347)"><tspan
            x="202.42773"
            y="24.987544"
-           id="tspan471"><tspan
+           id="tspan480"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan469">ángulo = 0.65[°]
+             id="tspan478">ángulo = 0.65[°]
 </tspan></tspan><tspan
            x="202.42773"
            y="31.161157"
-           id="tspan475"><tspan
+           id="tspan484"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan473">intesidad = 0.19[A]
+             id="tspan482">intesidad = 0.19[A]
 </tspan></tspan><tspan
            x="202.42773"
            y="37.33477"
-           id="tspan479"><tspan
+           id="tspan488"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan477">voltaje = 18[V]</tspan></tspan></text>
+             id="tspan486">voltaje = 18[V]</tspan></tspan></text>
     </g>
     <g
        id="g1005"
-       transform="matrix(1.221818,0,0,1.221818,103.05705,116.29191)"
+       transform="matrix(1.221818,0,0,1.221818,-33.291901,84.213725)"
        inkscape:export-xdpi="1000"
        inkscape:export-ydpi="1000">
       <image
@@ -430,25 +429,25 @@
          transform="translate(-335.25773,1.1988347)"><tspan
            x="202.42773"
            y="24.987544"
-           id="tspan483"><tspan
+           id="tspan492"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan481">ángulo = 0.7[°]
+             id="tspan490">ángulo = 0.7[°]
 </tspan></tspan><tspan
            x="202.42773"
            y="31.161157"
-           id="tspan487"><tspan
+           id="tspan496"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan485">intesidad = 0.22[A]
+             id="tspan494">intesidad = 0.22[A]
 </tspan></tspan><tspan
            x="202.42773"
            y="37.33477"
-           id="tspan491"><tspan
+           id="tspan500"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan489">voltaje = 21[V]</tspan></tspan></text>
+             id="tspan498">voltaje = 21[V]</tspan></tspan></text>
     </g>
     <g
        id="g1011"
-       transform="matrix(1.221818,0,0,1.221818,496.48245,116.29191)"
+       transform="matrix(1.221818,0,0,1.221818,-230.00503,513.14487)"
        inkscape:export-xdpi="1000"
        inkscape:export-ydpi="1000">
       <image
@@ -473,25 +472,25 @@
          transform="translate(-497.18375,1.1988347)"><tspan
            x="202.42773"
            y="24.987544"
-           id="tspan495"><tspan
+           id="tspan504"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan493">ángulo = 0.75[°]
+             id="tspan502">ángulo = 0.75[°]
 </tspan></tspan><tspan
            x="202.42773"
            y="31.161157"
-           id="tspan499"><tspan
+           id="tspan508"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan497">intesidad = 0.23[A]
+             id="tspan506">intesidad = 0.23[A]
 </tspan></tspan><tspan
            x="202.42773"
            y="37.33477"
-           id="tspan503"><tspan
+           id="tspan512"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan501">voltaje = 24[V]</tspan></tspan></text>
+             id="tspan510">voltaje = 24[V]</tspan></tspan></text>
     </g>
     <g
        id="g1017"
-       transform="matrix(1.221818,0,0,1.221818,889.90784,116.29191)"
+       transform="matrix(1.221818,0,0,1.221818,163.42066,513.14487)"
        inkscape:export-xdpi="1000"
        inkscape:export-ydpi="1000">
       <image
@@ -516,21 +515,21 @@
          transform="translate(-658.05143,1.1988347)"><tspan
            x="202.42773"
            y="24.987544"
-           id="tspan507"><tspan
+           id="tspan516"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan505">ángulo = 0.8[°]
+             id="tspan514">ángulo = 0.8[°]
 </tspan></tspan><tspan
            x="202.42773"
            y="31.161157"
-           id="tspan511"><tspan
+           id="tspan520"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan509">intesidad = 0.21[A]
+             id="tspan518">intesidad = 0.21[A]
 </tspan></tspan><tspan
            x="202.42773"
            y="37.33477"
-           id="tspan515"><tspan
+           id="tspan524"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan513">voltaje = 27[V]</tspan></tspan></text>
+             id="tspan522">voltaje = 27[V]</tspan></tspan></text>
     </g>
   </g>
 </svg>
