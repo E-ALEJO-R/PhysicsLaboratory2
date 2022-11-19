@@ -7,9 +7,9 @@
    id="svg8"
    inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
    sodipodi:docname="values.svg"
-   inkscape:export-filename="../../../../../../Android/values.png"
-   inkscape:export-xdpi="100"
-   inkscape:export-ydpi="100"
+   inkscape:export-filename="values.png"
+   inkscape:export-xdpi="60"
+   inkscape:export-ydpi="60"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -213,9 +213,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.10907549"
-     inkscape:cx="1416.4502"
-     inkscape:cy="1485.21"
+     inkscape:zoom="0.3011578"
+     inkscape:cx="752.0974"
+     inkscape:cy="1809.6825"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -317,10 +317,7 @@
        inkscape:export-xdpi="1000"
        inkscape:export-ydpi="1000" />
     <g
-       id="g993"
-       transform="matrix(1.221818,0,0,1.221818,-819.28668,84.691796)"
-       inkscape:export-xdpi="1000"
-       inkscape:export-ydpi="1000">
+       id="g590">
       <image
          width="172.77292"
          height="306.91666"
@@ -330,40 +327,37 @@
          x="343.74628"
          y="-52.236107"
          clip-path="url(#clipPath943)"
-         transform="matrix(1.2236015,0,0,1.2358528,-370.42386,-64.04497)" />
+         transform="matrix(1.4950183,0,0,1.5099872,-1271.8772,6.4404988)" />
       <path
-         style="fill:none;stroke:#ff0000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 150.33739,103.43502 4.448,-83.763874"
+         style="fill:none;stroke:#ff0000;stroke-width:0.690327;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -635.60175,211.07057 5.24289,-97.75718"
          id="path949"
          sodipodi:nodetypes="cc" />
       <text
          xml:space="preserve"
          id="text959"
          style="font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect961);display:inline"
-         transform="translate(-12.993696,1.1988347)"><tspan
+         transform="matrix(1.221818,0,0,1.221818,-835.16261,86.156554)"><tspan
            x="202.42773"
            y="24.987544"
-           id="tspan635"><tspan
+           id="tspan1209"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan633">ángulo = 0.4[°]
+             id="tspan1207">ángulo = 4[°]
 </tspan></tspan><tspan
            x="202.42773"
            y="31.161157"
-           id="tspan639"><tspan
+           id="tspan1213"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan637">intesidad = 0.17[A]
+             id="tspan1211">intesidad = 0.17[A]
 </tspan></tspan><tspan
            x="202.42773"
            y="37.33477"
-           id="tspan643"><tspan
+           id="tspan1217"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan641">voltaje = 15[V]</tspan></tspan></text>
+             id="tspan1215">voltaje = 15[V]</tspan></tspan></text>
     </g>
     <g
-       id="g999"
-       transform="matrix(1.221818,0,0,1.221818,-426.71745,84.213724)"
-       inkscape:export-xdpi="1000"
-       inkscape:export-ydpi="1000">
+       id="g961">
       <image
          width="172.77292"
          height="306.91666"
@@ -373,40 +367,37 @@
          x="43.861652"
          y="-56.446419"
          clip-path="url(#clipPath939)"
-         transform="matrix(1.115732,0,0,1.126003,-144.5825,-29.551214)" />
+         transform="matrix(1.3632214,0,0,1.3757707,-603.37095,48.107519)" />
       <path
-         style="fill:none;stroke:#ff0000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M -10.023117,102.83778 -1.9278451,22.652571"
+         style="fill:none;stroke:#ff0000;stroke-width:0.690327;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -438.26004,209.72678 8.3538,-94.74742"
          id="path951"
          sodipodi:nodetypes="cc" />
       <text
          xml:space="preserve"
          id="text967"
          style="font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect969);display:inline"
-         transform="translate(-174.91922,1.1988347)"><tspan
+         transform="matrix(1.221818,0,0,1.221818,-640.4369,85.678482)"><tspan
            x="202.42773"
            y="24.987544"
-           id="tspan647"><tspan
+           id="tspan1221"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan645">ángulo = 0.65[°]
+             id="tspan1219">ángulo = 6[°]
 </tspan></tspan><tspan
            x="202.42773"
            y="31.161157"
-           id="tspan651"><tspan
+           id="tspan1225"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan649">intesidad = 0.19[A]
+             id="tspan1223">intesidad = 0.19[A]
 </tspan></tspan><tspan
            x="202.42773"
            y="37.33477"
-           id="tspan655"><tspan
+           id="tspan1229"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan653">voltaje = 18[V]</tspan></tspan></text>
+             id="tspan1227">voltaje = 18[V]</tspan></tspan></text>
     </g>
     <g
-       id="g1005"
-       transform="matrix(1.221818,0,0,1.221818,-33.291901,84.213725)"
-       inkscape:export-xdpi="1000"
-       inkscape:export-ydpi="1000">
+       id="g630">
       <image
          width="172.77292"
          height="306.91666"
@@ -416,34 +407,34 @@
          x="-107.53828"
          y="-51.124969"
          clip-path="url(#clipPath935)"
-         transform="matrix(1.0178961,0,0,1.0344561,-146.60731,-15.347759)" />
+         transform="matrix(1.2436838,0,0,1.2639171,-212.41935,65.461557)" />
       <path
-         style="fill:none;stroke:#ff0000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m -172.65966,100.90139 9.05499,-79.271026"
+         style="fill:none;stroke:#ff0000;stroke-width:0.690327;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -244.25058,207.49686 11.06355,-96.85477"
          id="path953"
          sodipodi:nodetypes="cc" />
       <text
          xml:space="preserve"
          id="text973"
          style="font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect975);display:inline"
-         transform="translate(-335.25773,1.1988347)"><tspan
+         transform="matrix(1.221818,0,0,1.221818,-442.91583,85.678483)"><tspan
            x="202.42773"
            y="24.987544"
-           id="tspan659"><tspan
+           id="tspan1233"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan657">ángulo = 0.7[°]
+             id="tspan1231">ángulo = 7[°]
 </tspan></tspan><tspan
            x="202.42773"
            y="31.161157"
-           id="tspan663"><tspan
+           id="tspan1237"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan661">intesidad = 0.22[A]
+             id="tspan1235">intesidad = 0.22[A]
 </tspan></tspan><tspan
            x="202.42773"
            y="37.33477"
-           id="tspan667"><tspan
+           id="tspan1241"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan665">voltaje = 21[V]</tspan></tspan></text>
+             id="tspan1239">voltaje = 21[V]</tspan></tspan></text>
     </g>
     <g
        id="g1011"
@@ -462,7 +453,7 @@
          transform="matrix(0.99207767,0,0,0.99705464,-21.076058,0.74699177)" />
       <path
          style="fill:none;stroke:#ff0000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m -333.27451,102.74218 9.31257,-80.746219"
+         d="m -333.92107,101.72192 10.10429,-77.386172"
          id="path957"
          sodipodi:nodetypes="cc" />
       <text
@@ -472,21 +463,21 @@
          transform="translate(-497.18375,1.1988347)"><tspan
            x="202.42773"
            y="24.987544"
-           id="tspan671"><tspan
+           id="tspan1245"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan669">ángulo = 0.75[°]
+             id="tspan1243">ángulo = 8[°]
 </tspan></tspan><tspan
            x="202.42773"
            y="31.161157"
-           id="tspan675"><tspan
+           id="tspan1249"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan673">intesidad = 0.23[A]
+             id="tspan1247">intesidad = 0.23[A]
 </tspan></tspan><tspan
            x="202.42773"
            y="37.33477"
-           id="tspan679"><tspan
+           id="tspan1253"><tspan
              style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan677">voltaje = 24[V]</tspan></tspan></text>
+             id="tspan1251">voltaje = 24[V]</tspan></tspan></text>
     </g>
     <g
        id="g1017"
@@ -508,28 +499,31 @@
          d="m -493.30817,101.60943 10.97625,-80.263654"
          id="path955"
          sodipodi:nodetypes="cc" />
-      <text
-         xml:space="preserve"
-         id="text985"
-         style="font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect987);display:inline"
-         transform="translate(-658.05143,1.1988347)"><tspan
-           x="202.42773"
-           y="24.987544"
-           id="tspan683"><tspan
-             style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan681">ángulo = 0.8[°]
+      <g
+         id="g799">
+        <text
+           xml:space="preserve"
+           id="text985"
+           style="font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect987);display:inline"
+           transform="translate(-658.05143,1.1988347)"><tspan
+             x="202.42773"
+             y="24.987544"
+             id="tspan1257"><tspan
+               style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
+               id="tspan1255">ángulo = 8[°]
 </tspan></tspan><tspan
-           x="202.42773"
-           y="31.161157"
-           id="tspan687"><tspan
-             style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan685">intesidad = 0.21[A]
+             x="202.42773"
+             y="31.161157"
+             id="tspan1261"><tspan
+               style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
+               id="tspan1259">intesidad = 0.21[A]
 </tspan></tspan><tspan
-           x="202.42773"
-           y="37.33477"
-           id="tspan691"><tspan
-             style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-             id="tspan689">voltaje = 27[V]</tspan></tspan></text>
+             x="202.42773"
+             y="37.33477"
+             id="tspan1265"><tspan
+               style="font-weight:500;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
+               id="tspan1263">voltaje = 27[V]</tspan></tspan></text>
+      </g>
     </g>
   </g>
 </svg>
