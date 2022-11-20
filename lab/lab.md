@@ -16,23 +16,15 @@ referencias:
 Ecuación de la recta: $y = Ax + B$
 * Para determinar la pendiente $A$
 $$
-A =
-\frac{n\sum x_i y_i - \sum x_i \sum y_i}
-{n \sum{x_i}^{2} - \left( \sum x_i \right)^{2}}
+A =\frac{n\sum x_i y_i - \sum x_i \sum y_i}{n \sum{x_i}^{2} - \left( \sum x_i \right)^{2}}
 $$
 * Para determinar el término independiente $B$
 $$
-B =
-\frac{\sum y_i \sum {x_i}^{2} - \sum x_i \sum x_i y_i}
-{n \sum{x_i}^{2} - \left( \sum x_i \right)^{2}}
+B = \frac{\sum y_i \sum {x_i}^{2} - \sum x_i \sum x_i y_i} {n \sum{x_i}^{2} - \left( \sum x_i \right)^{2}}
 $$
 * Para determinar la incertidumbre de los datos
 $$
-\sigma_y =
-\sqrt{
-\frac{\sum{\left(y_i - Bx_i - A\right)}^{2}}
-{n-2}
-}
+\sigma_y =\sqrt{\frac{\sum{\left(y_i - Bx_i - A\right)}^{2}}{n-2}}
 $$
 * Para determinar la incertidumbre de $A$
 $$
