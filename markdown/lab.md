@@ -37,6 +37,7 @@ import six
 import math
 from matplotlib import pyplot
 from IPython.display import Image
+import ipyplot
 ```
 
 Clases implementadas para aplicar el método de los mínimos cuadrados
@@ -378,35 +379,17 @@ class LeastSquares:
 
 Montaje
 
-
-```python
-Image("../lab10/images/mounting.png")
-```
-
-
-
-
-    
-![png](output_13_0.png)
-    
-
-
+![si](../lab10/images/mounting.png "EDGAR")
 
 Datos obtenidos en el laboratorio
 
+![hola](../lab10/images/values.png)
+
 
 ```python
-Image("../lab10/images/values.png")
+# Image("../lab10/images/values.png")
+# ipyplot.plot_images(["../lab10/images/values.png", "../lab10/images/values.png", "../lab10/images/values.png"], max_images = 2, img_width = 50)
 ```
-
-
-
-
-    
-![png](output_15_0.png)
-    
-
-
 
 Creando un objeto de tipo **LeastSqueare** "método de los mínimos cuadrados".
 
@@ -424,7 +407,7 @@ ls.table()
 
 
     
-![png](output_19_0.png)
+![png](output_18_0.png)
     
 
 
@@ -524,14 +507,24 @@ Gráfica de tendencia
 
 
 ```python
-ls.graph(title = "GRÁFICA", pointsize = 300, linewidth = 5)
+ls.graph(title = "GRÁFICA", pointsize = 200, linewidth = 3)
 ```
 
 
     
-![png](output_35_0.png)
+![png](output_34_0.png)
     
 
+
+
+```python
+
+```
+
+
+```python
+
+```
 
 
 ```python
