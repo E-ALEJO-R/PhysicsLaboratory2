@@ -27,7 +27,7 @@ $$E_B = \sigma_y \sqrt{\frac{n}{n \sum{x_i}^{2} - \left( \sum x_i \right)^{2}}}$
 * Para determinar el coeficiente de correlación
 $$r = \frac{\sum x_i y_i}{\sqrt{\sum{x_i}^{2} \sum{y_i}^{2}}}$$
 
-Librerias necesarias
+Librerias **necesarias**
 
 
 ```python
