@@ -3,15 +3,15 @@
 
 El objetivo de esta experiencia es recrear el famoso experimento de Oersted sobre la desviación que sufre una aguja magnética situada en las proximidades de un conductor eléctrico
 
-Através de esta ley se puede determinar el valor de **campo magnético** de un conductor
+Através de esta ley se puede determinar el valor de **campo magnético** de un conductor.
 
 $$ \vec{B}_C = \frac{\mu_0 I}{2 \pi d} $$
 
 Referencias:
 
-$I \mapsto$: medir en laboratorio.
+$I$: medir en laboratorio.
 
-$d \mapsto$: distancia de separación entre el conductor y la aguja.
+$d$: distancia de separación entre el conductor y la aguja.
 
 **FÓRMULAS PARA EL MÉTODO DE LOS MÍNIMOS CUADRADOS**
 
