@@ -9,9 +9,9 @@ $$ \vec{B}_C = \frac{\mu_0 I}{2 \pi d} $$
 
 Referencias:
 
-$I \mapsto$ medir en laboratorio 
+$I \mapsto$: medir en laboratorio.
 
-$d \mapsto $ distancia de separación entre el conductor y la aguja
+$d \mapsto$: distancia de separación entre el conductor y la aguja.
 
 **FÓRMULAS PARA EL MÉTODO DE LOS MÍNIMOS CUADRADOS**
 
