@@ -15,9 +15,7 @@ referencias:
 
 Ecuación de la recta: $y = Ax + B$
 * Para determinar la pendiente $A$
-$$
-\A =\frac{n\sum x_i y_i - \sum x_i \sum y_i}{n \sum{x_i}^{2} - \left( \sum x_i \right)^{2}}
-$$
+$$\A =\frac{n\sum x_i y_i - \sum x_i \sum y_i}{n \sum{x_i}^{2} - \left( \sum x_i \right)^{2}}$$
 * Para determinar el término independiente $B$
 $$
 \B = \frac{\sum y_i \sum {x_i}^{2} - \sum x_i \sum x_i y_i} {n \sum{x_i}^{2} - \left( \sum x_i \right)^{2}}
