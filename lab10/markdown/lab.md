@@ -127,7 +127,7 @@ class List(list):
 ```
 </details>
 
-<details><summary>Función para invertir un array</summary>
+<details><summary>CLICK para ver la función invertir arrays</summary>
 
 ```python
 def invert(array: List) -> List:
@@ -141,7 +141,7 @@ def invert(array: List) -> List:
 ```
 </details>
 
-<details><summary>Clase mínimos cuadrados</summary>
+<details><summary>CLICK para ver la clase de mínimos cuadrados</summary>
 
 ```python
 from csv import writer, reader
