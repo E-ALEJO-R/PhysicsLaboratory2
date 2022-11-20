@@ -42,6 +42,7 @@ import ipyplot
 
 Clases implementadas para aplicar el método de los mínimos cuadrados
 
+<details><summary>Clase lista personalizada</summary>
 
 ```python
 from enum import Enum, unique
@@ -122,6 +123,7 @@ class List(list):
         else:
             raise LException(f"only types are supported: {int}, {float} and {List}")
 ```
+</details>
 
 <details><summary>Función para invertir un array</summary>
 
@@ -135,9 +137,9 @@ def invert(array: List) -> List:
         val.append(aux)
     return val
 ```
-
 </details>
 
+<details><summary>Clase mínimos cuadrados</summary>
 
 ```python
 from csv import writer, reader
@@ -379,6 +381,7 @@ class LeastSquares:
         else:
             raise LRException(f"allowed values of type {str}")
 ```
+</details>
 
 Montaje
 
