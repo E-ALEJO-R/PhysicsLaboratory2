@@ -123,6 +123,7 @@ class List(list):
             raise LException(f"only types are supported: {int}, {float} and {List}")
 ```
 
+<details><summary>Función para invertir un array</summary>
 
 ```python
 def invert(array: List) -> List:
@@ -134,6 +135,8 @@ def invert(array: List) -> List:
         val.append(aux)
     return val
 ```
+
+</details>
 
 
 ```python
@@ -379,11 +382,11 @@ class LeastSquares:
 
 Montaje
 
-![si](../lab10/images/mounting.png "EDGAR")
+![si](../images/mounting.png "EDGAR")
 
 Datos obtenidos en el laboratorio
 
-![hola](../lab10/images/values.png)
+![hola](../images/values.png)
 
 
 ```python
