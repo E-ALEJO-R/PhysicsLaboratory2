@@ -5,9 +5,9 @@ El objetivo de esta experiencia es recrear el famoso experimento de Oersted sobr
 
 Através de esta ley se puede determinar el valor de **campo magnético** de un conductor
 
-$$\vec{B}_C = \frac{\mu_0 I}{2 \pi d} $$
+$$ \vec{B}_C = \frac{\mu_0 I}{2 \pi d} $$
 
-referencias:
+Referencias:
 * $I \longrightarrow $ medir en laboratorio
 * $d \longrightarrow $ distancia de separación entre el conductor y la aguja
 
@@ -17,7 +17,7 @@ Ecuación de la recta: $y = Ax + B$
 * Para determinar la pendiente $A$
 $$A =\frac{n\sum x_i y_i - \sum x_i \sum y_i}{n \sum{x_i}^{2} - \left( \sum x_i \right)^{2}}$$
 * Para determinar el término independiente $B$
-$$B = \frac{\sum y_i \sum {x_i}^{2} - \sum x_i \sum x_i y_i} {n \sum{x_i}^{2} - \left( \sum x_i \right)^{2}}$$
+$$B =\frac{\sum y_i \sum {x_i}^{2} - \sum x_i \sum x_i y_i}{n \sum{x_i}^{2} - \left( \sum x_i \right)^{2}}$$
 * Para determinar la incertidumbre de los datos
 $$\sigma_y =\sqrt{\frac{\sum{\left(y_i - Bx_i - A\right)}^{2}}{n-2}}$$
 * Para determinar la incertidumbre de $A$
@@ -25,9 +25,9 @@ $$E_A = \sigma_y \sqrt{\frac{\sum{x_i}^{2}}{n \sum{x_i}^{2} - \left( \sum x_i \r
 * Para determinar la incertidumbre de $B$
 $$E_B = \sigma_y \sqrt{\frac{n}{n \sum{x_i}^{2} - \left( \sum x_i \right)^{2}}}$$
 * Para determinar el coeficiente de correlación
-$$r = \frac{\sum x_i y_i}{\sqrt{\sum{x_i}^{2} \sum{y_i}^{2}}}$$
+$$r =\frac{\sum x_i y_i}{\sqrt{\sum{x_i}^{2} \sum{y_i}^{2}}}$$
 
-Librerias **necesarias**
+Librerias necesarias
 
 
 ```python
