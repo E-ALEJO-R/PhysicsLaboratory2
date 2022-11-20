@@ -44,7 +44,7 @@ import ipyplot
 
 Clases implementadas para aplicar el método de los mínimos cuadrados
 
-<details><summary>Clase lista personalizada</summary>
+<details><summary>**CLICK** para ver la clase lista personalizada</summary>
 
 ```python
 from enum import Enum, unique
