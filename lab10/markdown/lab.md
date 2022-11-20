@@ -8,8 +8,10 @@ Através de esta ley se puede determinar el valor de **campo magnético** de un 
 $$ \vec{B}_C = \frac{\mu_0 I}{2 \pi d} $$
 
 Referencias:
+
 $I \mapsto$ medir en laboratorio 
-$d \longrightarrow $ distancia de separación entre el conductor y la aguja
+
+$d \mapsto $ distancia de separación entre el conductor y la aguja
 
 **FÓRMULAS PARA EL MÉTODO DE LOS MÍNIMOS CUADRADOS**
 
