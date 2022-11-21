@@ -3,7 +3,7 @@
 
 El objetivo de esta experiencia es recrear el famoso experimento de Oersted sobre la desviación que sufre una aguja magnética situada en las proximidades de un conductor eléctrico
 
-Através de esta ley se puede determinar el valor de **campo magnético** de un conductor.
+Através de esta ley se puede determinar el valor de **campo magnético** de un conductor
 
 $$ \vec{B}_C = \frac{\mu_0 I}{2 \pi d} $$
 
@@ -38,13 +38,13 @@ import numpy as np
 import six
 import math
 from matplotlib import pyplot
-from IPython.display import Image
-import ipyplot
+# from matplotlib.lines import lineStyles
+# from IPython.display import Image
+# import ipyplot
 ```
 
-Clases implementadas para aplicar el método de los mínimos cuadrados
+Clases implementadas para aplicar el método de los mínimos cuadrados.
 
-<details><summary>CLICK para ver la clase lista personalizada</summary>
 
 ```python
 from enum import Enum, unique
@@ -68,30 +68,33 @@ class LException(Exception):
 
 
 class List(list):
+    """
+    @author: Edgar Alejo Ramirez
+    """
 
     def __init__(self):
         super().__init__()
 
     def __add__(self, other: int | float | List):
-        return self.__aux(other, Operation.ADD)
+        return self.__fun(other, Operation.ADD)
 
     def __sub__(self, other: int | float | List):
-        return self.__aux(other, Operation.SUB)
+        return self.__fun(other, Operation.SUB)
 
     def __mul__(self, other: int | float | List):
-        return self.__aux(other, Operation.MUL)
+        return self.__fun(other, Operation.MUL)
 
     def __truediv__(self, other: int | float | List):
-        return self.__aux(other, Operation.TRUEDIV)
+        return self.__fun(other, Operation.TRUEDIV)
 
     def __floordiv__(self, other: int | float | List):
-        return self.__aux(other, Operation.FLOORDIV)
+        return self.__fun(other, Operation.FLOORDIV)
 
     def __pow__(self, power: int | List, modulo = None):
-        return self.__aux(power, Operation.POW)
+        return self.__fun(power, Operation.POW)
 
     def __mod__(self, other: int | float | List):
-        return self.__aux(other, Operation.MOD)
+        return self.__fun(other, Operation.MOD)
 
     def __op(self, other: int | float | List, operation: Operation, array: bool = False) -> List:
         values = List()
@@ -114,7 +117,7 @@ class List(list):
                 raise LException(f"invalid operation")
         return values
 
-    def __aux(self, other: int | float | List, op: Operation):
+    def __fun(self, other: int | float | List, op: Operation):
         if isinstance(other, (int, float)):
             return self.__op(other, op)
         elif isinstance(other, List):
@@ -125,23 +128,7 @@ class List(list):
         else:
             raise LException(f"only types are supported: {int}, {float} and {List}")
 ```
-</details>
 
-<details><summary>CLICK para ver la función invertir arrays</summary>
-
-```python
-def invert(array: List) -> List:
-    val = List()
-    for i in range(len(array[0])):
-        aux = List()
-        for j in range(len(array)):
-            aux.append(array[j][i])
-        val.append(aux)
-    return val
-```
-</details>
-
-<details><summary>CLICK para ver la clase de mínimos cuadrados</summary>
 
 ```python
 from csv import writer, reader
@@ -218,61 +205,116 @@ class LeastSquares:
     def __readcsv(self):
         with open(self.__path, newline = '') as file:
             values = List()
-            for f in reader(file):
-                values.append(f)
-            values = invert(values)
+            for r in reader(file):
+                values.append(r)
+            values = self.__invert(values)
             for val in values:
-                J = List()
-                for gg in val[1:]:
-                    J.append(float(gg))
-                yield str(val[0]), J
+                lt = List()
+                for v in val[1:]:
+                    lt.append(float(v))
+                yield str(val[0]), lt
 
     def __writecsv(self):
         with open(self.__path, mode = 'w') as File:
             write = writer(File)
             write.writerow(self.__array)
 
-    def a(self) -> float:
+    @staticmethod
+    def __invert(array: List) -> List:
+        val = List()
+        for i in range(len(array[0])):
+            aux = List()
+            for j in range(len(array)):
+                aux.append(array[j][i])
+            val.append(aux)
+        return val
+
+    @staticmethod
+    def __round(decimals: int, formula: float) -> float:
+        if decimals is None:
+            return formula
+        if not isinstance(decimals, int):
+            raise LRException(f"only {int} type values are supported")
+        if decimals < 0:
+            raise LRException(f"only positive values including zero are allowed")
+        return round(formula, decimals)
+
+    def a(self, decimals: int = None) -> float:
         """
-        Pendiente de la recta.
+        Pendiente de la recta. fórmula
         :return:
         """
         self.__validate()
-        return (self.__n * self.__sumxy - self.__sumx * self.__sumy) / (self.__n * self.__sumx2 - self.__sumx ** 2)
+        tmp = (self.__n * self.__sumxy - self.__sumx * self.__sumy) / (self.__n * self.__sumx2 - self.__sumx ** 2)
+        return self.__round(decimals = decimals, formula = tmp)
 
-    def b(self) -> float:
+    def b(self, decimals: int = None) -> float:
         """
         Término independiente de la recta.
         :return:
         """
         self.__validate()
-        return (self.__sumy * self.__sumx2 - self.__sumx * self.__sumxy) / (self.__n * self.__sumx2 - self.__sumx ** 2)
+        tmp = (self.__sumy * self.__sumx2 - self.__sumx * self.__sumxy) / (self.__n * self.__sumx2 - self.__sumx ** 2)
+        return self.__round(decimals = decimals, formula = tmp)
 
-    def r(self) -> float:
+    def r(self, decimals: int = None) -> float:
+        """
+        Coeficiente de correlación.
+        :return:
+        """
         self.__validate()
-        return np.sum(
+        tmp = np.sum(
             (self[self.__columnx] - self.__promx) * (self[self.__columny] - self.__promy)
         ) / (math.sqrt(
             np.sum((self[self.__columnx] - self.__promx) ** 2)
         ) * math.sqrt(
             np.sum((self[self.__columny] - self.__promy) ** 2)
         ))
+        return self.__round(decimals = decimals, formula = tmp)
 
-    def sigmay(self) -> float:
+    def sigmay(self, decimals: int = None) -> float:
+        """
+        Incertidumbre de datos.
+        :return:
+        """
         self.__validate()
-        return math.sqrt(
+        tmp = math.sqrt(
             np.sum(
                 (self[self.__columny] - (self[self.__columnx] * self.a()) - self.b()) ** 2
             ) / (self.__n - 2)
         )
+        return self.__round(decimals = decimals, formula = tmp)
 
-    def erra(self) -> float:
+    def erra(self, decimals: int = None) -> float:
+        """
+        Incertidumbre de la pendiente.
+        :return:
+        """
         self.__validate()
-        return self.sigmay() * math.sqrt(self.__n / (self.__n * self.__sumx2 - self.__sumx ** 2))
+        tmp = self.sigmay() * math.sqrt(self.__n / (self.__n * self.__sumx2 - self.__sumx ** 2))
+        return self.__round(decimals = decimals, formula = tmp)
 
-    def errb(self) -> float:
+    def errb(self, decimals: int = None) -> float:
+        """
+        Incertidumbre del término independiente.
+        :return:
+        """
         self.__validate()
-        return self.sigmay() * math.sqrt(self.__sumx2 / (self.__n * self.__sumx2 - self.__sumx ** 2))
+        tmp = self.sigmay() * math.sqrt(self.__sumx2 / (self.__n * self.__sumx2 - self.__sumx ** 2))
+        return self.__round(decimals = decimals, formula = tmp)
+
+    def equation(self, decimals: int = None, uncertainty: bool = False) -> str:
+        """
+        Ecuación de la recta.
+        :return:
+        """
+        b = self.b(decimals)
+        sign = "+" if b > 0 else "-"
+        if not isinstance(uncertainty, bool):
+            raise LRException(f"{uncertainty} not of type {bool}")
+        if uncertainty:
+            return f"{self.__y} = ({self.a(decimals)} ± {self.erra(decimals)}){self.__x} {sign} ({abs(b)} ± {self.errb(decimals)})"
+        return f"{self.__y} = {self.a(decimals)}{self.__x} {sign} {abs(b)}"
 
     def table(
         self,
@@ -292,13 +334,14 @@ class LeastSquares:
             bbox = [0, 0, 1, 1]
         if rowcolors is None:
             rowcolors = ['#f1f1f2', 'w']
+            # rowcolors = ['#c2c2d6', 'w']
         if ax is None:
             size = (np.array(self.dimension()) + np.array([0, 1])) * np.array([colwidth, rowheight])
             fig, ax = pyplot.subplots(figsize = size)
             ax.axis('off')
         values = [i for i in self.__array.values()]
         values = np.round(values, decimals = decimals)
-        values = invert(values)
+        values = self.__invert(values)
         mtable = ax.table(cellText = values, bbox = bbox, colLabels = self.headers(), **kwargs)
         mtable.auto_set_font_size(False)
         mtable.set_fontsize(fontsize)
@@ -315,12 +358,14 @@ class LeastSquares:
     def graph(
         self, title = "GRAPH", linewidth = 3,
         pointsize = 200, savepng: bool = False,
-        xlabel: str = None, ylabel: str = None
+        xlabel: str = None, ylabel: str = None,
+        decimals: int = None,
+        uncertainty: bool = False
     ) -> None:
         self.__validate()
         diff_linewidth = 1.05
         color = ['darkorange', 'olive', 'teal', 'violet', 'skyblue']
-        pyplot.figure(facecolor = 'yellow')
+        pyplot.figure(facecolor = '#a3a3c2')
         pyplot.scatter(
             self[self.__columnx], self[self.__columny],
             edgecolors = "black", c = color, s = pointsize, marker = "o"
@@ -329,14 +374,16 @@ class LeastSquares:
             self[self.__columnx],
             self.a() * self[self.__columnx] + self.b(),
             c = "blue", linewidth = 2 + (diff_linewidth * linewidth),
-            label = self.equation() + "\nr = " + str(round(self.r(), 2))
+            label = self.equation(decimals, uncertainty) + "\nr = " + str(self.r(decimals))
         )
         pyplot.xlabel(self.__x if xlabel is None else xlabel, fontweight = "bold")
         pyplot.ylabel(self.__y if ylabel is None else ylabel, fontweight = "bold")
         pyplot.title(title, fontweight = "bold")
         if savepng:
             pyplot.savefig('graph.png', dpi = 800)
-        pyplot.grid(True)
+        gca = pyplot.gca()
+        gca.set_facecolor('#f0f0f5')
+        pyplot.grid(True, linestyle = '--')
         pyplot.legend()
 
     def dimension(self) -> tuple:
@@ -347,11 +394,6 @@ class LeastSquares:
 
     def headers(self) -> list:
         return [k for k in self.__array.keys()]
-
-    def equation(self) -> str:
-        b = self.b()
-        sig = "+" if b > 0 else "-"
-        return f"{self.__y} = {round(self.a(), 2)}{self.__x} {sig} {round(abs(b), 2)}"
 
     @property
     def x(self):
@@ -383,21 +425,14 @@ class LeastSquares:
         else:
             raise LRException(f"allowed values of type {str}")
 ```
-</details>
 
 Montaje
 
-![si](../images/mounting.png "EDGAR")
+![si](../lab10/images/mounting.png)
 
 Datos obtenidos en el laboratorio
 
-![hola](../images/values.png)
-
-
-```python
-# Image("../lab10/images/values.png")
-# ipyplot.plot_images(["../lab10/images/values.png", "../lab10/images/values.png", "../lab10/images/values.png"], max_images = 2, img_width = 50)
-```
+![hola](../lab10/images/values.png)
 
 Creando un objeto de tipo **LeastSqueare** "método de los mínimos cuadrados".
 
@@ -415,11 +450,11 @@ ls.table()
 
 
     
-![png](output_18_0.png)
+![png](output_16_0.png)
     
 
 
-Asignando las columnas que debe de tomar para el analisis.
+Asignando las columnas que debe de tomar ecuenta para el analisis.
 
 
 ```python
@@ -501,32 +536,41 @@ Ecuación de la recta
 
 
 ```python
-ls.equation()
+out = ls.equation(decimals = 2, uncertainty = True)
+print(out)
 ```
 
-
-
-
-    'tan(θ) = 63.79I - 6.41'
-
+    tan(θ) = (63.79 ± 15.9)I - (6.41 ± 3.26)
 
 
 Gráfica de tendencia
 
 
 ```python
-ls.graph(title = "GRÁFICA", pointsize = 200, linewidth = 3)
+ls.graph(title = "GRÁFICA", pointsize = 200, linewidth = 3, decimals = 2, uncertainty = False, savepng = False)
 ```
 
 
     
-![png](output_34_0.png)
+![png](output_32_0.png)
     
 
 
 
 ```python
-
+# pyplot.quiver([0, 4], [0, 4], [0, 0], [4, 4], scale_units = "xy", angles = "xy", scale = 1)
+# pyplot.xlim(-1, 5)
+# pyplot.ylim(-1, 5)
+# pyplot.grid(True, linestyle = "--")
+# ax = pyplot.gca()
+# ax.set_facecolor('#f0f0f5')
+# axes = pyplot.axes()
+#
+# axes.spines['bottom'].set_linewidth(2)
+# axes.spines['left'].set_linewidth(2)
+# axes.spines['top'].set_visible(False)
+# axes.spines['right'].set_visible(False)
+# pyplot.show()
 ```
 
 
