@@ -433,11 +433,11 @@ class LeastSquares:
 
 Montaje
 
-![si](../lab10/images/mounting.png)
+![si](mounting.png)
 
 Datos obtenidos en el laboratorio
 
-![hola](../lab10/images/values.png)
+![hola](values.png)
 
 Creando un objeto de tipo **LeastSqueare** "método de los mínimos cuadrados".
 
