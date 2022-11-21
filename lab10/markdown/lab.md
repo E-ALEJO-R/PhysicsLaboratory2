@@ -32,6 +32,7 @@ $$r =\frac{\sum x_i y_i}{\sqrt{\sum{x_i}^{2} \sum{y_i}^{2}}}$$
 Librerias necesarias
 
 
+
 ```python
 from __future__ import annotations
 import numpy as np
@@ -45,6 +46,7 @@ from matplotlib import pyplot
 
 Clases implementadas para aplicar el método de los mínimos cuadrados.
 
+<details><summary>Click para ver la clase Lista personalizada.</summary>
 
 ```python
 from enum import Enum, unique
@@ -128,7 +130,9 @@ class List(list):
         else:
             raise LException(f"only types are supported: {int}, {float} and {List}")
 ```
+</details>
 
+<details><summary>Click para ver la clase de los Mínimos Cuadrados.</summary>
 
 ```python
 from csv import writer, reader
@@ -425,6 +429,7 @@ class LeastSquares:
         else:
             raise LRException(f"allowed values of type {str}")
 ```
+</details>
 
 Montaje
 
