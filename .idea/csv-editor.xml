@@ -10,56 +10,42 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/models/LAB11/data.csv">
+        <entry key="/lab9/models/0m2020.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/models/LAB9/20A.csv">
+        <entry key="/lab9/models/0m7012.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/models/LAB9/25A.csv">
+        <entry key="/lab9/models/0m9004.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/models/LAB9/30A.csv">
+        <entry key="/lab9/models/20A.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/models/LAB9/datar1.csv">
+        <entry key="/lab9/models/25A.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/models/LAB9/datar2.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/models/LAB9/datar3.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/models/LAB9/datar4.csv">
+        <entry key="/lab9/models/30A.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
