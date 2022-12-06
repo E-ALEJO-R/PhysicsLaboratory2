@@ -10,6 +10,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/lab11/models/maxmin.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/lab11/models/minmax.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/lab8/models/eq-sim-dos.csv">
           <value>
             <Attribute>
